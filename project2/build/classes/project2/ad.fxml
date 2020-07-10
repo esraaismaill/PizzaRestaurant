@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="panad" prefHeight="861.0" prefWidth="1074.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project2.AdController">
+   <children>
+      <ImageView fx:id="imagead" fitHeight="932.0" fitWidth="1161.0" layoutX="-14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/pizzaaaaaaaaa.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="followus" fitHeight="474.0" fitWidth="286.0" layoutX="27.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/followus.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="okb" layoutX="318.0" layoutY="257.0" mnemonicParsing="false" onAction="#Okbotton" prefHeight="70.0" prefWidth="144.0" text="OK!">
+         <font>
+            <Font name="Bookman Old Style Bold" size="32.0" />
+         </font>
+      </Button>
+      <Button fx:id="laterb" layoutX="313.0" layoutY="363.0" mnemonicParsing="false" onAction="#laterBotton" prefHeight="70.0" prefWidth="153.0" text="Maybe Later">
+         <font>
+            <Font name="Bookman Old Style Bold" size="19.0" />
+         </font>
+      </Button>
+      <Label layoutX="277.0" layoutY="112.0" prefHeight="109.0" prefWidth="580.0" text="Follow us on Instagram" textFill="#fcf9f9">
+         <font>
+            <Font name="Bookman Old Style Bold" size="45.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
